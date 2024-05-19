@@ -1,0 +1,194 @@
+<!-- abrar -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #about {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      #about h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      .about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+
+      #about img {
+        width: 450px;
+        height: 450px;
+      }
+
+      #about h3 {
+        font-size: 25px;
+        padding: 0px 20px;
+        color: #065c66;
+      }
+
+      #about p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        padding: 0px 20px;
+      }
+
+      @media (max-width: 799px) {
+        .about-container {
+          flex-direction: column;
+        }
+
+        #about img {
+          width: 100%;
+          height: 100%;
+        }
+
+        #about h3 {
+          margin-top: 20px;
+        }
+      }
+
+      @media (max-width: 477px) {
+        .about-container {
+          flex-direction: column;
+        }
+
+        #about img {
+          width: 100%;
+          height: 100%;
+        }
+
+        #about h3 {
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <section id="header">
+      <a href="#"
+        ><img
+          class="logo1"
+          src="img/Pngtreeonline shopping logo desing_8918925.png"
+          class="logo"
+          alt=""
+      /></a>
+
+      <div class="nav-links">
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html" target="_blank">About</a></li>
+          <li><a href="contact.html" target="_blank">Contact Us</a></li>
+          <li><a href="form.html">Sign in</a></li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+
+      <div id="cart-section">
+        <h2 class="cart-title">Your Cart</h2>
+        <div id="cart-content"></div>
+        <div id="amount">
+          <h3 id="total">Total</h3>
+          <h3 id="total-amount">0</h3>
+        </div>
+        <button id="checkout">Checkout</button>
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section-p1">
+      <div class="container-about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-container">
+          <div id="about-img">
+            <img src="img/About/a6.jpg" alt="" />
+          </div>
+          <div id="about-text">
+            <h3>Who we are?!</h3>
+            <p style="color: black">
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, excepturi reprehenderit deleniti dolorem voluptate nam perferendis iste beatae doloribus possimus alias expedita ullam omnis ipsum voluptates nisi quas ipsa obcaecati.
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque repudiandae natus molestiae ipsam, iusto atque quisquam ut consequuntur eos alias voluptates, ipsa sapiente. Libero laudantium, eaque quaerat repudiandae perferendis ex?
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis repudiandae error, voluptate, nulla vitae quia perspiciatis iure odit commodi nobis animi sequi iste ea nesciunt repellendus ratione? Magni, totam. Distinctio!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel fuga odit dolor neque eum minima porro, doloribus id nihil voluptate. Molestiae cupiditate deleniti vitae, debitis necessitatibus ea officia. Nemo.
+           
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> ismailia</p>
+        <p><strong>Phone:</strong> 01152994226</p>
+        <p><strong>Hours:</strong> all day</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About us</a>
+
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="form.html">Sign In</a>
+        <a href="#">View Cart</a>
+
+        <a href="contact.html">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <a href="##"><img src="img/pay/app.jpg" alt="" /></a>
+          <a href="##"><img src="img/pay/play.jpg" alt="" /></a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+    </footer>
+    <button onclick="scrollToTop()" id="scrollToTopBtn">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="script/about.js"></script>
+    <script src="main.js"></script>
+    <script src="script/ScrollToTop.js"></script>
+    <script src="script/navbar.js"></script>
+  </body>
+</html>

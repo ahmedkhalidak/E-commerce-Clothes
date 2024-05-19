@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <section id="header">
+      <a href="#"><img
+          class="logo1"
+          src="img/Pngtreeonline shopping logo desing_8918925.png"
+          class="logo"
+          alt=""
+      /></a>
+
+      <div class="nav-links">
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="form.html">Sign in</a></li>
+          <li id="lg-bag">
+            <a id="cart-icon"><i class="fa-solid fa-bag-shopping icon"></i></a>
+            <span id="cart-counter">0</span>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+
+      <div id="cart-section">
+        <h2 class="cart-title">Your Cart</h2>
+        <div id="cart-content"></div>
+        <div id="amount">
+          <h3 id="total">Total</h3>
+          <h3 id="total-amount">0</h3>
+        </div>
+        <button id="checkout">Checkout</button>
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+      </div>
+    </section>
+    <section id="hero">
+      <h2>Super sale</h2>
+      <h1>On all products</h1>
+      <p style="color: black">Save more than 70%</p>
+      <a href="#product1"><button>Shop Now</button></a>
+    </section>
+
+    <!-- Slider section -->
+    <section id="slider">
+      <h1 style="color: black">We sell everything</h1>
+      <h4 style="color: black">Take an idea and buy a reel</h4>
+      <div id="overlay" class="overlay">
+        <img src="img/Slider/1.jpg" id="overlay-img" class="overlay-img" /><span
+          class="prev"
+          >&lt;</span     
+        ><span class="next">&gt;</span>  
+      </div>
+    </section>
+
+    <!-- Products section -->
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="filter-buttons">
+        <button class="filter-btn all-btn">All</button>
+        <button class="filter-btn jeans-btn">Jeans</button>
+        <button class="filter-btn sweatshirts-btn">Sweatshirts</button>
+        <button class="filter-btn t-shirts-btn">T-Shirts</button>
+        <button class="filter-btn jackets-btn">Jackets</button>
+      </div>
+      <div class="pro-container"></div>
+    </section>
+    <!-- footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> ismailia</p>
+        <p><strong>Phone:</strong> 01152994226</p>
+        <p><strong>Hours:</strong> all day</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About us</a>
+
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="form.html">Sign In</a>
+        <a href="#">View Cart</a>
+
+        <a href="contact.html">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <a href="##"><img src="img/pay/app.jpg" alt="" /></a>
+          <a href="##"><img src="img/pay/play.jpg" alt="" /></a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+    </footer>
+    <button onclick="scrollToTop()" id="scrollToTopBtn">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+    <script src="script/ScrollToTop.js"></script>
+    <script src="script/navbar.js"></script>
+  </body>
+</html>
